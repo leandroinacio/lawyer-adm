@@ -1,5 +1,5 @@
 <template>
-  <div class="row">
+  <el-row>
     <div class="col-lg-8">
 
         <!-- Example Bar Chart Card -->
@@ -294,7 +294,7 @@
             </div>
         </div>
     </div>
-  </div>
+  </el-row>
 </template>
 
 <script>
