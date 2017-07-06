@@ -1,6 +1,6 @@
 <template>
   <el-row>
-    <div class="col-lg-8">
+    <el-col :span="8">
 
         <!-- Example Bar Chart Card -->
         <div class="card mb-3">
@@ -240,9 +240,9 @@
         </div>
         <!-- /Card Columns -->
 
-    </div>
+    </el-col>
 
-    <div class="col-lg-4">
+    <el-col :span="4">
         <!-- Example Notifications Card -->
         <div class="card mb-3">
             <div class="card-header">
@@ -293,7 +293,7 @@
                 Updated yesterday at 11:59 PM
             </div>
         </div>
-    </div>
+    </el-col>
   </el-row>
 </template>
 
