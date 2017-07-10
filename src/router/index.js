@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
-import Table from '@/components/Table'
-import Charts from '@/components/Charts'
+import Owner from '@/components/Owner'
+import CreateOwner from '@/components/CreateOwner'
+import Records from '@/components/Records'
 
 Vue.use(Router)
 
@@ -14,14 +15,19 @@ export default new Router({
       component: Home
     },
     {
-      path: '/table',
-      name: 'Table',
-      component: Table
+      path: '/owner',
+      name: 'Owner',
+      component: Owner
     },
     {
-      path: '/charts',
-      name: 'Charts',
-      component: Charts
+      path: '/create.owner',
+      name: 'CreateOwner',
+      component: CreateOwner
+    },
+    {
+      path: '/records',
+      name: 'Records',
+      component: Records
     }
   ]
 })

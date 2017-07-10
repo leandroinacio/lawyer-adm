@@ -14,11 +14,11 @@
                     <router-link class="nav-link" to="/"> Início</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link class="nav-link" to="/charts"> Charts</router-link>
+                    <router-link class="nav-link" to="/records"> Registros</router-link>
                     <!--<a class="nav-link" href="#"><i class="fa fa-fw fa-area-chart"></i> Charts</a>-->
                 </li>
                 <li class="nav-item">
-                    <router-link class="nav-link" to="/table"> Tables</router-link>
+                    <router-link class="nav-link" to="/owner"> Usuários</router-link>
                     <!--<a  href="#"><i class="fa fa-fw fa-table"></i> Tables</a>-->
                 </li>
                 <li class="nav-item">
@@ -122,6 +122,9 @@ export default {
 </script>
 
 <style>
+.row {
+  margin-bottom: 10px;
+}
 body {
   background: #292b2c; }
 
